@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "node server.js",
-    "deploy:build": "vite build",
-    "deploy:all": "concurrently \"npm run build\" \"npm start\""
+    "start": "node server.js"
   },
   "author": "xiangrui19950310-crypto",
   "license": "MIT",
@@ -23,7 +21,7 @@
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
     "tailwind-variants": "^1.0.0",
-    "class-variance-authority": "^1.0.0",
+    "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1"
   },
   "devDependencies": {
