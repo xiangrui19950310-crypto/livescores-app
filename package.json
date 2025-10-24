@@ -1,0 +1,51 @@
+{
+  "name": "livescores-app",
+  "version": "1.0.0",
+  "description": "⚡ LiveScores 实时比分系统 - React + Express 全栈应用",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server.js",
+    "dev:all": "concurrently \"npm run server\" \"npm run dev\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy:build": "node deploy-build.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "livescore",
+    "react",
+    "vite",
+    "express",
+    "sports",
+    "tailwindcss",
+    "framer-motion",
+    "api-sports",
+    "realtime"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "clsx": "^2.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.378.0",
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "autoprefixer": "^10.4.20",
+    "class-variance-authority": "^0.7.0",
+    "concurrently": "^8.2.2",
+    "postcss": "^8.4.49",
+    "tailwind-variants": "^0.1.20",
+    "tailwindcss": "^3.4.15",
+    "vite": "^5.4.10"
+  }
+}

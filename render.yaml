@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: livescores
+    env: node
+    plan: free
+    buildCommand: npm install && npm run deploy:build
+    startCommand: npm start
+    envVars:
+      - key: API_SPORTS_KEY
+        sync: false
+      - key: PORT
+        value: 9000
